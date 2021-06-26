@@ -1,0 +1,46 @@
+*, *::after, *::before {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100%;
+  height: auto;
+}
+
+body .container {
+  overflow-y: scroll;
+  height: 100vh;
+}
+
+body .container .fleet_container button {
+  color: black;
+}
+
+body .container .space_container .header h2 {
+  text-align: center;
+}
+
+body .container .space_container .contents .space_intro {
+  color: black;
+}
+
+body .container .space_container .contents .space_title {
+  color: black;
+}
+
+body .container .space_container .contents .participants_container .participant .p_avatar img {
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+body .container .space_container .contents .participants_container .participant .p_name {
+  color: red;
+}
+
+body .container .space_container .contents .participants_container .participant .p_role {
+  color: gray;
+}
+/*# sourceMappingURL=style.css.map */
