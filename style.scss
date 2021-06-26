@@ -1,0 +1,49 @@
+*, *::after, *::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+} 
+
+body {
+    width: 100%;
+    height:auto;
+    .container {
+        overflow-y: scroll;
+        height: 100vh;
+        .fleet_container {
+            button {
+                color: black;
+            }
+        }
+        .space_container {
+            .header {
+                h2 {
+                    text-align: center;
+                }
+            }
+            .contents {
+                .space_intro {
+                    color: black;
+                }
+                .space_title {
+                    color: black;
+                }
+                .participants_container {
+                    .participant {
+                        .p_avatar {
+                            img {
+                                object-fit: contain;
+                            }
+                        }
+                        .p_name {
+                            color: red;
+                        }
+                        .p_role {
+                            color: gray;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
